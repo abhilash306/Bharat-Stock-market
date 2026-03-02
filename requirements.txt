@@ -1,0 +1,29 @@
+# Bharat Market Intelligence - Python Backend Dependencies
+# Install with: python -m pip install -r requirements.txt
+# ✅ Compatible with Python 3.12, 3.13, 3.14
+
+# Web Framework
+flask>=3.1.0
+flask-cors>=4.0.0
+
+# HTTP & Scraping
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+lxml>=5.3.0
+selenium>=4.27.0             # For JavaScript-heavy pages (Groww, Zerodha)
+webdriver-manager>=4.0.2     # Auto-manages ChromeDriver
+
+# Financial Data (latest versions support Python 3.14)
+yfinance>=0.2.51             # Yahoo Finance (free, no API key needed)
+pandas>=2.2.3                # Data manipulation
+numpy>=2.2.0                 # Numerical computations
+
+# Utilities
+python-dotenv>=1.0.1         # Load .env variables
+schedule>=1.2.2              # Cron-like scheduling
+
+# Production server
+waitress>=3.0.1              # Windows-compatible production server
+
+# Optional: Redis for production caching
+# redis>=5.0.1
